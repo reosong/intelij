@@ -44,6 +44,7 @@ public class jdbcMemberRepository implements MemberRepository{
         }finally{
             close(con, pstmt, rs);
         }
+
         return null;
     }
 
